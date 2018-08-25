@@ -51,7 +51,7 @@ body{
 	color: #ffd699;
 	text-align:left;
 	padding : 40px;
-	background-image: url("323.jpg");
+	background-image: url("323.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -98,7 +98,7 @@ body{
 	padding : 40px;
 	margin : 100px;
 	font-family : Arial;
-	background-image: url("eback.jpg");
+	background-image: url("eback.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body{
 	padding : 40px;
 	margin : 100px;
 	font-family : Arial;
-	background-image: url("pback1.jpg");
+	background-image: url("pback1.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -124,7 +124,7 @@ body{
 	padding : 40px;
 	margin : 100px;
 	font-family : Arial;
-	background-image: url("rback1.jpg");
+	background-image: url("rback1.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
