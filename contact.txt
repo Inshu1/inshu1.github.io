@@ -4,6 +4,8 @@
   <title>snt council</title>
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width,initial-    scale=1">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style>
 .topnav {
     background-color: #000000;
@@ -59,7 +61,7 @@ img {
 	color: #ffd699;
 	text-align:left;
 	padding : 40px;
-	background-image: url("323.jpg");
+	background-image: url("323.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -67,15 +69,29 @@ img {
 	 
 }
 
-.aboutus{
+.contact{
 	
 	color: #ffd699;
-	text-align:left;
+	
 	font-family:Arial;
 	padding : 40px;
 }
 
-
+.gs{color: #000000;
+	text-align:center;
+	padding : 40px;
+	margin : 100px 3px 0 2px;
+	font-family : Arial;
+	background-color: #ffd698;
+  }
+.image{
+	float: right;
+    
+    margin:0 0 20px 0;
+    padding: 15px;
+    border-radius: 50%;
+	}
+       	
 
 </style>
 </head>
@@ -92,12 +108,21 @@ img {
   </div>
 
 </div>
+<div data-aos="fade-right"
+	data-aos-duration="3000">
 <div class="iit">
 <p style="font-family:Arial;font-size:70px;"> Science and Technology <br>Council</p>
 
 <p style="font-family:Lucida Console;font-size:50px;">IIT KANPUR</p>
 </div>
+</div>
 
-<div class="contact">
-
-<h1>Contact Us</h1>
+<h1 style="text-align:center;">Meet the Team</h1>
+<div class="gs">
+ 
+</div>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

@@ -188,19 +188,25 @@ body{
     border-radius: 50%;
   
 }
-
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .topnav, .iit, .intro, .aero, .astro, .eclub, .pclub, .robo, .descon, .rubik, .sch, .club, .image {
+    width:100%;
+  }
+}
 
 </style>
 </head>
 <body>
 
 <div class="topnav">
-  <a class="active" href="file:///E:/all%20new/snt.html">Home</a>
+  <a class="active" file:///E:/snt/SNT-COUNCIL/snt.html">Home</a>
  
   <div class="topnav-right">
     <a href="#wiki">Wiki</a>
     <a href="#contact">Contact</a>
-    <a href="file:///E:/all%20new/about_us.html">About</a>
+    <a href="file:///E:/snt/SNT-COUNCIL/about_us.html">About</a>
   </div>
 
 </div>
@@ -342,6 +348,21 @@ body{
   AOS.init();
 </script>
 
+
+<div id="map" style="width:100%;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(26.5059306,80.2339134);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS9OeWdM8BRSez4wyetiMF10ncLXW-16g&callback=myMap"></script>
 
 
 </body>
