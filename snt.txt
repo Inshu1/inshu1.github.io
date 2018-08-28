@@ -157,6 +157,18 @@ body{
     	background-size: cover;
 }
 
+.fdh{
+	color: #ffd699;
+	text-align:center;
+	padding : 40px;
+	margin : 100px;
+	font-family : Arial;
+	background-image: url("businessback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+
 .sch{
 	color: #ffd699;
 	text-align:center;
@@ -344,6 +356,21 @@ body{
   
 </div>
 </div>
+
+<div data-aos="fade-up-right"
+	data-aos-duration="2500">
+<div class="fdh">
+ <img src="business.jpg" alt="Avatar" class="image" width="175" height="175">
+
+<h2>Finance Discussion Hobby Group</h2>
+  
+
+<p>Finance Discussion Group, IIT Kanpur ia a student driven body which aims at increasing the awareness of Finance as a viable career option through conducting key note sessions, workshops and competition for student community. </p>
+
+  
+</div>
+</div>
+
 <script>
   AOS.init();
 </script>
