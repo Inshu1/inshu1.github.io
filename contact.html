@@ -4,6 +4,7 @@
   <title>snt council</title>
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width,initial-    scale=1">
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,500i|Exo|Handlee|Istok+Web|Kosugi+Maru|Orbitron|PT+Sans+Caption|Russo+One|Varela+Round" rel="stylesheet">
  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style>
@@ -47,21 +48,55 @@ body{
 	background-color: #000000;
 }
 
-<!--.row{margin-right:-15px;margin-left:-15px}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
 
-.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
 
-.col-sm-4{width:33.33333333%}-->
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
-img {
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+
+image {
     float: right;
+	margin:0 0 20px 0;
+    padding: 15px;
+    border-radius: 50%;
 }
 
 .iit{
 	color: #ffd699;
-	text-align:left;
-	padding : 40px;
-	background-image: url("323.png");
+	text-align:center;
+	padding : 95px;
+	background-image: url("3233(1).jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -77,15 +112,15 @@ img {
 	padding : 40px;
 }
 
-.gs{color: #000000;
+.gs{color: #ffd698;
 	text-align:center;
-	padding : 40px;
+	padding : 20px;
 	margin : 100px 3px 0 2px;
 	font-family : Arial;
-	background-color: #ffd698;
+	font-size: 40px;
   }
 .image{
-	float: right;
+	float: left;
     
     margin:0 0 20px 0;
     padding: 15px;
@@ -98,28 +133,119 @@ img {
 <body>
 
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
+  <a class="active" file:///E:/snt/SNT-COUNCIL/snt.html">Home</a>
  
   <div class="topnav-right">
-    <a href="#about">About</a>
-    <a href="#contact">Wiki</a>
-    <a href="#search">Contact</a>
-    
+    <a href="#wiki">Wiki</a>
+    <a href="#contact">Contact</a>
+    <a href="file:///E:/snt/SNT-COUNCIL/about_us.html">About</a>
   </div>
 
 </div>
 <div data-aos="fade-right"
 	data-aos-duration="3000">
 <div class="iit">
-<p style="font-family:Arial;font-size:70px;"> Science and Technology <br>Council</p>
+<p style="font-family: 'Orbitron', sans-serif;font-size:60px;"><b> Science and Technology</b> <br><b>Council</b></p>
 
-<p style="font-family:Lucida Console;font-size:50px;">IIT KANPUR</p>
+<p style="font-family: 'Kosugi Maru', sans-serif;font-size:55px;">IIT KANPUR</p>
+
+</div>
+</div>
+<div class="contact">
+<div data-aos="fade-right"
+	data-aos-duration="3000">
+<h1 style="text-align:center;font-family: 'Orbitron', sans-serif;font-size:50px;"> Meet the Team</h1>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+	<p class="gs">General Secretary</p>
+	
+      <img src="akashj.jpg" alt="Akash" style="width="175" height="175" >
+
+      <div class="container">
+	
+        <h2>Akash Jain</h2>
+        
+        <p style="color= "white";>sntsecy@iitk.ac.in | jaiakash@iitk.ac.in <br> 9450533385</p>
+        <p>204, NewSAC, IITK</p>
+        
+      </div>
+    </div>
+  </div>
+<div class="column">
+</div>
+<div class="column">
 </div>
 </div>
 
-<h1 style="text-align:center;">Meet the Team</h1>
-<div class="gs">
- 
+
+<div class="row">
+<div class="column">
+</div>
+  <div class="column">
+    <div class="card">
+	<p class="gs">Senior Executive</p>
+	
+      <img src="sunilp.jpg" alt="sunil" style="width="175" height="175" >
+
+      <div class="container">
+	
+        <h2>Sunil Kumar Pandey</h2>
+        
+        <p style="color= "white";> sunilkp@iitk.ac.in            
+           <br> 7755048062</p>
+      </div>
+    </div>
+  </div>
+<div class="column">
+</div>
+</div>
+
+<div class="row">
+ <p class="gs">Media and Publicity Executives</p>
+  <div class="column">
+    <div class="card">
+      <img src="ankitk.jpg" alt="ankit" style="width="150" height="150">
+
+      <div class="container">
+        <h2>Ankit Kumar</h2>
+        
+        <p style="color= "white";> kumankit@iitk.ac.in <br>9631496341</p>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="faizans.jpg" alt="faizan" style="width="150" height="150">
+
+      <div class="container">
+        <h2>Faizan Siddiqui</h2>
+        
+        <p style="color= "white";> faizan@iitk.ac.in <br> 9198811277</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class = "row">
+  <div class="column">
+    <div class="card">
+      <img src="gback.jpg" alt="John" style="width="150" height="150">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 <script>
   AOS.init();
