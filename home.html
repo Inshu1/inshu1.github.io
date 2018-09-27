@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>snt council</title>
+  <title>SnT IIT Kanpur</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-    scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href="logo_snt.jpg" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,500i|Exo|Handlee|Istok+Web|Kosugi+Maru|Monoton|Noto+Serif+KR|Orbitron|PT+Sans+Caption|Russo+One|Varela+Round" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style>
 .topnav {
     background-color: #000000;
@@ -19,7 +23,7 @@
   text-decoration: none;
   font-size: 17px;
   bordor: 0;
-  font-family:Lucida Console;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 /* Change the color of links on hover */
@@ -43,38 +47,332 @@ text-decoration:
 
 body{
 	background-color: #000000;
+	
+	
+}
+
+.background{
+	
+	background-image: url("bg2_1.jpg");
+	
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+
+	
+.content
+{
+	margin: 20px;
+	
+}
+	
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+img {
+   
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+
+
+
+    outline: #1e1c32 solid 5px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+	margin: 2px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+.image {
+  float: right;
+    
+    margin:0 0 20px 0;
+    padding: 15px;
+    border-radius: 50%;
+  
 }
 
 .iit{
-	color: #ffd699;
+	color: 	#ffd699;
 	text-align:left;
-	padding : 40px;
-	background-image: url("323.jpg");
+	padding : 60px;
+	margin : 20px ;
+	background-image: url("3233(1).jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
     	background-size: cover;
 	 
 }
+
+.intro{
+	color: #ffd698;
+	text-align:left;
+	margin : 5px 0 5px 0;
+	padding : 5px;
+	font-family: 'Handlee', cursive;
+	font-size: 18px;
+}
+
+
+.club{
+	color: #000000;
+	text-align : center;
+	margin : 5px 0 5px 0;
+	padding : 5px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 10px;
+	background-color : #746069;
+}
+
+
+
+.aero{
+	color: #fcfefd;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("aeroback1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.astro{
+	color: #fcfefd;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("astroback1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.eclub{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("eback.png");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.pclub{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("pback1.png");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.robo{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("rback1.png");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.descon{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("aeroback1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.rubik{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("rubikback1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+.sch{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("aeroback1.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+
+.fdh{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("businessback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+
+
+
+
+
+
 </style>
 </head>
 <body>
 
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
+  <a class="active" file:///E:/snt/SNT-COUNCIL/snt.html">Home</a>
  
   <div class="topnav-right">
-    <a href="#wiki">Wiki</a>
-    <a href="#contact">Contact</a>
-    <a href="file:///E:/all%20new/about_us.html">About</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#projects">Projects</a>
+    <a href="file:///E:/snt/SNT-COUNCIL/about_us.html">People</a>
+    <a href="#feedback">Feedback</a>
   </div>
 
 </div>
+<div class="background">
+<div data-aos="fade-right"
+	data-aos-duration="3000">
 <div class="iit">
-<p style="font-family:Arial;font-size:70px;"> Science and Technology <br>Council</p>
+<p style="font-family: 'Noto Serif KR', sans-serif;font-size:80px;"><b> Science and Technology</b></p>
 
-<p style="font-family:Lucida Console;font-size:50px;">IIT KANPUR</p>
+<p style="font-family: 'Noto Serif KR', sans-serif;font-size:70px;">IIT KANPUR</p>
+
 </div>
+</div>
+<div class="content">
+
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+	<div class="club">
+	<h1>CLUBS</h1>
+	
+	<a target="_blank" href="file:///E:/snt/SNT-COUNCIL/clubs.html">
+  <img src="aero.jpg" alt="clubs" style="width:85%; height:350px">
+</a>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+	<div class="card">
+	<div class="club">
+	<h1>HOBBY GROUPS</h1>
+	
+	<a target="_blank" href="file:///E:/snt/SNT-COUNCIL/hobbygroups.html">
+  <img src="rubik.jpg" alt="hobby groups" style="width:85%; height:350px">
+</a>
+      
+ </div>   
+</div>
+</div>
+<div class="column">
+	<div class="card">
+	<div class="club">
+	<h1>TEAMS</h1>
+	
+	<a target="_blank" href="paris.jpg">
+  <img src="auv.jpg" alt="teams" style="width:85%; height:350px">
+</a>
+    </div>  
+    </div>
+</div>
+</div>
+
+
+</div>
+</div>
+<script>
+  AOS.init();
+</script>
+
 
 
 </body>
