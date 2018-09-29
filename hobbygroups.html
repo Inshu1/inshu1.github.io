@@ -4,6 +4,7 @@
   <title>SnT IIT Kanpur</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="shortcut icon" href="logo_snt.jpg" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500i|Exo|Handlee|Istok+Web|Kosugi+Maru|Monoton|Noto+Serif+KR|Orbitron|PT+Sans+Caption|Russo+One|Varela+Round" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -46,12 +47,68 @@ text-decoration:
 
 body{
 	background-color: #000000;
+	
+	
 }
+
+.background{
+	
+	background-image: url("bg2_1.jpg");
+	
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+}
+
+
+	
 .content
 {
-	margin: 200px;
+	margin: 20px;
+	
 }
 	
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+
+
+
+
 .image {
   float: right;
     
@@ -64,7 +121,8 @@ body{
 .iit{
 	color: 	#ffd699;
 	text-align:left;
-	padding : 95px;
+	padding : 60px;
+	margin : 20px ;
 	background-image: url("3233(1).jpg");
 	background-attachment: fixed;
     	background-position: center;
@@ -76,9 +134,10 @@ body{
 .intro{
 	color: #ffd698;
 	text-align:left;
-	padding : 40px;
+	margin : 5px 0 5px 0;
+	padding : 5px;
 	font-family: 'Handlee', cursive;
-	font-size: 40px;
+	font-size: 18px;
 }
 
 
@@ -88,8 +147,8 @@ body{
 	margin : 5px 0 5px 0;
 	padding : 5px;
 	font-family: 'Orbitron', sans-serif;
-	font-size: 30px;
-	background-color : #f4a442;
+	font-size: 10px;
+	background-color : #746069;
 }
 
 
@@ -97,9 +156,9 @@ body{
 .aero{
 	color: #fcfefd;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("aeroback1.jpg");
 	background-attachment: fixed;
@@ -111,9 +170,9 @@ body{
 .astro{
 	color: #fcfefd;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("astroback1.jpg");
 	background-attachment: fixed;
@@ -125,9 +184,9 @@ body{
 .eclub{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("eback.png");
 	background-attachment: fixed;
@@ -139,9 +198,9 @@ body{
 .pclub{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("pback1.png");
 	background-attachment: fixed;
@@ -153,9 +212,9 @@ body{
 .robo{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("rback1.png");
 	background-attachment: fixed;
@@ -167,9 +226,9 @@ body{
 .descon{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("aeroback1.jpg");
 	background-attachment: fixed;
@@ -181,9 +240,9 @@ body{
 .rubik{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("rubikback1.jpg");
 	background-attachment: fixed;
@@ -195,9 +254,9 @@ body{
 .sch{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("aeroback1.jpg");
 	background-attachment: fixed;
@@ -210,9 +269,9 @@ body{
 .fdh{
 	color: #ffd699;
 	text-align:center;
-	padding : 40px;
+	padding : 5px;
 	margin : 40px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("businessback.jpg");
 	background-attachment: fixed;
@@ -240,12 +299,13 @@ body{
   </div>
 
 </div>
+<div class="background">
 <div data-aos="fade-right"
 	data-aos-duration="3000">
 <div class="iit">
-<p style="font-family: 'Noto Serif KR', sans-serif;font-size:70px;"><b> Science and Technology</b></p>
+<p style="font-family: 'Noto Serif KR', sans-serif;font-size:80px;"><b> Science and Technology</b></p>
 
-<p style="font-family: 'Noto Serif KR', sans-serif;font-size:55px;">IIT KANPUR</p>
+<p style="font-family: 'Noto Serif KR', sans-serif;font-size:70px;">IIT KANPUR</p>
 
 </div>
 </div>
@@ -268,7 +328,7 @@ body{
 	data-aos-duration="2500">
 
 <div class="descon">
- <img src="aero.jpg" alt="Avatar" class="image" width="175" height="175">
+ <img src="aero.jpg" alt="Avatar" class="image" width="150" height="150">
 
 <h2 style="font-family: 'Istok Web', sans-serif; font-size:35px">DesCon Hobby Group</h2>
   
@@ -281,7 +341,7 @@ body{
 <div data-aos="zoom-in-left"
 	data-aos-duration="2500">
 <div class="rubik">
- <img src="rubik.jpg" alt="Avatar" class="image" width="175" height="175">
+ <img src="rubik.jpg" alt="Avatar" class="image" width="150" height="150">
 
 <h2 style="font-family: 'Istok Web', sans-serif; font-size:35px">Rubik's Cube Hobby Group</h2>
   
@@ -294,7 +354,7 @@ body{
 <div data-aos="fade-up-right"
 	data-aos-duration="2500">
 <div class="sch">
- <img src="sch.jpg" alt="Avatar" class="image" width="175" height="175">
+ <img src="sch.jpg" alt="Avatar" class="image" width="150" height="150">
 
 <h2 style="font-family: 'Istok Web', sans-serif; font-size:35px">Science Coffee House</h2>
   
@@ -308,7 +368,7 @@ body{
 <div data-aos="fade-up-right"
 	data-aos-duration="2500">
 <div class="fdh">
- <img src="business.jpg" alt="Avatar" class="image" width="175" height="175">
+ <img src="business.jpg" alt="Avatar" class="image" width="150" height="150">
 
 <h2 style="font-family: 'Istok Web', sans-serif; font-size:35px">Finance Discussion Hobby Group</h2>
   
@@ -316,6 +376,7 @@ body{
 <p>Finance Discussion Group, IIT Kanpur ia a student driven body which aims at increasing the awareness of Finance as a viable career option through conducting key note sessions, workshops and competition for student community. </p>
 
   
+</div>
 </div>
 </div>
 </div>
