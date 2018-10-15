@@ -1,0 +1,80 @@
+body {
+    overflow-x: hidden;
+}
+
+.main_container{
+    width:100% !important;
+    padding: 0% 10% !important;
+}
+
+header.major .byline {
+    list-style-type: disc;
+}
+
+.page-header{
+    margin-top: 0%;
+}
+#page_heading{
+  margin:0% 30%;
+  font-size:3vw;
+  color:black;
+  font-family:Monospace;
+  height:300px;
+}
+.form-control {
+    border-color: #ccc;
+}
+
+h1{
+  font-size:30px;
+  margin:1% 0%;
+  text-align:left;
+}
+
+p{
+  font-size:15px;
+  margin:1% 0%;
+  text-align:left;
+}
+input {
+    border-color: #ccc !important;
+}
+
+input:focus {
+    border-color: #66afe9 !important;
+}
+
+.form-group {
+    margin: 0% 0% 3%
+}
+
+form .input-group{
+    margin-top: 3%;
+}
+
+button:hover {
+    background-color: aquamarine !important;
+    color: #164b83 !important;
+    transition: all .2s linear;
+    font-variant: initial;
+}
+
+a {
+    text-decoration: none !important;
+    color:#bbb;
+}
+
+b {
+    color: #99e6ff;
+    font-size: 18px;
+}
+
+dl {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 2.4%;
+}
+
+.auvcontact a {
+    color: black !important;
+}
