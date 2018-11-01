@@ -1,53 +1,61 @@
-<html>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SnT IIT Kanpur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 <?php include(feedback_process.php); ?>
-<form name="SNT_Feedback_form" method="post" action="feedback_process.php" onsubmit="return validate.check(this)">
-<table width="450px">
-</tr>
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
- 
-<tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
- 
-</tr>
+<link rel="shortcut icon" href="file:///E:/snt/SNT-COUNCIL/images/logo_snt.jpg" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,500i|Exo|Handlee|Istok+Web|Kosugi+Maru|Monoton|Noto+Serif+KR|Orbitron|PT+Sans+Caption|Russo+One|Varela+Round" rel="stylesheet">
 
-<tr>
- <td valign="top">
-  <label for="feedback">Feedback *</label>
- </td>
- <td valign="top">
-  <textarea  name="feedback" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="form.css">
+<script src="form.js"></script>
+
+</head>
+<body>
+
+
+
+<div class="topnav">
+  <a class="active" href="file:///E:/snt/SNT-COUNCIL/snt.html">Home</a>
  
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-<a target="_blank" href="file:///E:/snt/SNT-COUNCIL/home.html">
-  <input type="submit" value="Submit">   
-</a> 
- </td>
-</tr>
-</table>
-</form>
+  <div class="topnav-right">
+    <a href="#blogs">Blogs</a>
+    <a href="#projects">Projects</a>
+    <a href="file:///E:/snt/SNT-COUNCIL/people.html">People</a>
+    <a href="file:///E:/snt/SNT-COUNCIL/feedback.html">Feedback</a>
+  </div>
+
+</div>
+<div class="background">
+<div data-aos="fade-right"
+	data-aos-duration="3000">
+<div class="iit">
+<p style="font-family: 'Noto Serif KR', sans-serif;font-size:70px;">Science and Technology<br>IIT Kanpur</p>
+
+</div>
+</div>
+ <form style="width:100%" method="post" accept-charset="UTF-8" id="formaction"> <!-- Email Linked to id formaction in js file -->
+              
+                User name: 
+                <input id="email" type="text" class="form-control input-default" name="name" placeholder="First & Last Name">
+              <br>
+<br>
+<br>
+		Email :
+                <input id="email" type="text" class="form-control input-default" name="email" placeholder="example@domain.com">
+             <br>
+		<br>
+<br>
+		Feedback :
+                <textarea id="msg" type="text" class="form-control input-default" name="msg" placeholder="Message" style="height:120px"></textarea>
+              
+              
+                <button type="submit" class="btn btn-default ">Send</button>
+              
+            </form>
 </html>
 </body>

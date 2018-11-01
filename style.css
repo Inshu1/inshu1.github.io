@@ -39,13 +39,13 @@ color: #fcfefd;
 }
 body{
 	background-color: #000000;
-	
+
 	
 }
 
 .background{
 	
-	background-image: url("3233(1).jpg");
+	background-image: url("../images/3233(1).jpg");
 	
 	background-attachment: fixed;
     	background-position: center;
@@ -57,6 +57,7 @@ body{
 	
 .content
 {
+	
 	margin: 20px;
 	
 }
@@ -195,7 +196,7 @@ img:hover {
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("aeroback1.jpg");
+	background-image: url("../images/aeroback1.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -224,7 +225,7 @@ img:hover {
 	margin: 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("astroback1.jpg");
+	background-image: url("../images/astroback1.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -240,7 +241,7 @@ img:hover {
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("eback.png");
+	background-image: url("../images/eback.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -256,7 +257,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("pback1.png");
+	background-image: url("../images/pback1.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -271,7 +272,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("rback1.png");
+	background-image: url("../images/rback1.png");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -287,7 +288,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("aeroback1.jpg");
+	background-image: url("../images/aeroback1.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -303,7 +304,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("rubikback1.jpg");
+	background-image: url("../images/rubikback1.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -319,7 +320,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("aeroback1.jpg");
+	background-image: url("../images/aeroback1.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
@@ -335,7 +336,7 @@ border: 1px solid #ffd699;
 	margin : 40px;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-	background-image: url("businessback.jpg");
+	background-image: url("../images/businessback.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
