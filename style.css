@@ -53,7 +53,14 @@ body{
     	background-size: cover;
 }
 
-
+.aboutus{
+	
+	color: #000000;
+	text-align:left;
+	 font-family: 'PT Sans Caption', sans-serif;
+	padding : 17px;
+	Background-color : #ffd698;
+}
 	
 .content
 {
@@ -328,6 +335,35 @@ border: 1px solid #ffd699;
 	border: 1px solid #ffd699;
 }
 
+.icg{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/businessback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.brain{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/businessback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
 
 .fdh{
 	color: #ffd699;
@@ -337,6 +373,123 @@ border: 1px solid #ffd699;
 	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
 	background-image: url("../images/businessback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.AR{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/ARback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.auv{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/auvback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.humanoid{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/humanoidback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.igem{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/igemback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+.igvc{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/igvcback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+
+.robocon{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/roboconback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+.rover{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/roverback.jpg");
+	background-attachment: fixed;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	border: 1px solid #ffd699;
+}
+.sae{
+	color: #ffd699;
+	text-align:center;
+	padding : 5px;
+	margin : 40px;
+	font-size: 15px;
+	font-family: 'Varela Round', sans-serif;
+	background-image: url("../images/saeback.jpg");
 	background-attachment: fixed;
     	background-position: center;
     	background-repeat: no-repeat;
