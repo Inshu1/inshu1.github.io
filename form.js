@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Formspree form information and email address
     var contactform =  document.getElementById('formaction');
-    contactform.setAttribute('action', '//formspree.io/' + 'namdevinshu' + '@' + 'gmail' + '.' + 'com');
+    contactform.setAttribute('action', 'http://formspree.io/' + 'namdevinshu' + '@' + 'gmail' + '.' + 'com');
 
 
   $(window).on('resize load', function() {
